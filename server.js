@@ -20,7 +20,6 @@ app.use(cors());
 // Initialize the main project folder
 app.use(express.static('website'));
 
-
 // Setup Server
 const port = 3000;
 const server = app.listen(port, listening);
@@ -40,5 +39,4 @@ app.post('/', newPost);
     function newPost(req, res){
     projectData = req.body;
     console.log(projectData);
-    res.send('good');
     }
