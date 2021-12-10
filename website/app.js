@@ -5,7 +5,7 @@ let newZip;
 const apiKey = ',us&appid=7910050025a2488eccff195e15ec2963&units=Metric';
 let data = [];
 let d = new Date();
-let newDate = d.getMonth()+'.'+ d.getDate()+'.'+ d.getFullYear();
+let newDate = d.getMonth()+ 1 +'.'+ d.getDate()+'.'+ d.getFullYear();
 
 // Create a new date instance dynamically with JS
 
